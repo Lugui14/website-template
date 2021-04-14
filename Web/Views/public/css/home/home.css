@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html .hero, body .hero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/home/homebg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .hero .custom-shape-divider-bottom-1618340795, body .hero .custom-shape-divider-bottom-1618340795 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+html .hero .custom-shape-divider-bottom-1618340795 svg, body .hero .custom-shape-divider-bottom-1618340795 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+html .hero .custom-shape-divider-bottom-1618340795 .shape-fill, body .hero .custom-shape-divider-bottom-1618340795 .shape-fill {
+  fill: #F4F4F4;
+}
+
+html .hero .content, body .hero .content {
+  max-width: 70%;
+  position: relative;
+}
+
+html .hero .content .text, body .hero .content .text {
+  text-align: center;
+  margin: 60px 0;
+}
+
+html .hero .content .text h1, body .hero .content .text h1 {
+  font-size: 36px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EA7B4B), color-stop(40%, white));
+  background: linear-gradient(to bottom, #EA7B4B, white 40%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px;
+}
+
+html .hero .content .text p, body .hero .content .text p {
+  font-size: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EA7B4B), color-stop(40%, white));
+  background: linear-gradient(to bottom, #EA7B4B, white 40%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px;
+}
+
+html .hero .content .icons, body .hero .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .hero .content .icons a, body .hero .content .icons a {
+  margin: 0 25px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+html .hero .content .icons a:hover, body .hero .content .icons a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+html .hero .content .icons a img, body .hero .content .icons a img {
+  width: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  html .hero .content, body .hero .content {
+    max-width: 50%;
+  }
+  html .hero .content .text h1, body .hero .content .text h1 {
+    font-size: 68px;
+  }
+  html .hero .content .text p, body .hero .content .text p {
+    font-size: 30px;
+  }
+}
+
+html .button-section, body .button-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+html .button-section .content, body .button-section .content {
+  max-width: 70%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .button-section .content .button, body .button-section .content .button {
+  text-decoration: none;
+}
+
+html .button-section .content .button .button-el, body .button-section .content .button .button-el {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 160px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#FFB200), to(#EA5459));
+  background: linear-gradient(90deg, #FFB200 0%, #EA5459 100%);
+  border-radius: 45px;
+}
+
+html .button-section .content .button .button-el h2, body .button-section .content .button .button-el h2 {
+  font-size: 24px;
+  color: white;
+}
+
+html .button-section .content p, body .button-section .content p {
+  font-size: 18px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  html .button-section .content, body .button-section .content {
+    max-width: 50%;
+  }
+  html .button-section .content .button, body .button-section .content .button {
+    -webkit-transition: .8s;
+    transition: .8s;
+  }
+  html .button-section .content .button:hover, body .button-section .content .button:hover {
+    -webkit-transition: .8s;
+    transition: .8s;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  html .button-section .content .button:hover .button-el h2, body .button-section .content .button:hover .button-el h2 {
+    -webkit-transition: .8s;
+    transition: .8s;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  html .button-section .content .button .button-el, body .button-section .content .button .button-el {
+    width: 300px;
+    height: 80px;
+  }
+  html .button-section .content .button .button-el h2, body .button-section .content .button .button-el h2 {
+    -webkit-transition: .8s;
+    transition: .8s;
+    font-size: 36px;
+  }
+  html .button-section .content p, body .button-section .content p {
+    font-size: 32px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

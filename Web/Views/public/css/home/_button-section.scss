@@ -1,0 +1,80 @@
+.button-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+
+  .content {
+    max-width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .button {
+      text-decoration: none;
+      .button-el {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 50px;
+        background: linear-gradient(90deg, #FFB200 0%, #EA5459 100%);
+        border-radius: 45px;
+
+        h2 {
+          font-size: 24px;
+          color: white;
+        }
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 130%;
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .button-section {
+    .content {
+      max-width: 50%;
+
+      .button {
+        transition: .8s;
+
+        &:hover {
+          transition: .8s;
+          transform: scale(1.1);
+
+          .button-el {
+            h2 {
+              transition: .8s;
+              transform: scale(1.2);
+            }
+          }
+        }
+
+        .button-el {
+          width: 300px;
+          height: 80px;
+
+          h2 {
+            transition: .8s;
+            font-size: 36px;
+          }
+        }
+      }
+
+      p {
+        font-size: 32px;
+      }
+    }
+  }
+}
