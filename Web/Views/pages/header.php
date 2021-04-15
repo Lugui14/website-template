@@ -8,8 +8,8 @@
 
       <div class='sidebar'>
         <ul>
-          <li><a class='list-el' href="#">Home</a></li>
-          <li><a class='list-el' href="#">About</a></li>
+          <li><a class='list-el' href="home">Home</a></li>
+          <li><a class='list-el' href="about">About</a></li>
           <li><a class='list-el' href="#">Services</a></li>
           <li><a class='list-el' href="#">Costumers</a></li>
           <li><a class='list-el' href="#">Contact</a></li>
@@ -20,8 +20,8 @@
     <nav class='nav-desktop'>
       <div class='listdiv'>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="home">Home</a></li>
+          <li><a href="about">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Costumers</a></li>
           <li><a href="#">Contact</a></li>

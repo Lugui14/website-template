@@ -7,6 +7,7 @@
 
   <!--css-->
   <link rel="stylesheet" href="<?php echo INCLUDE_PATH_STATIC ?>public/css/home/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 
   <!--font-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -122,21 +123,41 @@
     <h1>Testimonials</h1>
 
     <div class="slider">
-      <a class='arrow' href="#"><i class="fas fa-angle-left"></i></a>
-      <div class="card">
-        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/home/photo1.jpg" alt="photo">
+      <a class='arrow' id='left' href="#"><i class="fas fa-angle-left"></i></a>
 
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet ante vitae sapien porta dignissim. 
-        </p>
-      </div><!--card-->
-      <a class='arrow' href="#"><i class="fas fa-angle-right"></i></a>
+      <div class="cards">
+        <div class="card">
+          <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/home/photo1.jpg" alt="photo">
+
+          <p>
+          CARD 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet ante vitae sapien porta dignissim. 
+          </p>
+        </div><!--card-->
+
+        <div class="card">
+          <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/home/photo1.jpg" alt="photo">
+
+          <p>
+          CARD 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet ante vitae sapien porta dignissim. 
+          </p>
+        </div><!--card-->
+        <div class="card">
+          <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/home/photo1.jpg" alt="photo">
+
+          <p>
+          CARD 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet ante vitae sapien porta dignissim. 
+          </p>
+        </div><!--card-->
+      </div>
+      <a class='arrow' id='right' href="#"><i class="fas fa-angle-right"></i></a>
     </div><!--slider-->
   </section>
 
 
   <?php include("footer.php"); ?>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="<?php echo INCLUDE_PATH_STATIC ?>public/js/slider.js"></script>
   <script src="https://kit.fontawesome.com/560a2dac7b.js" crossorigin="anonymous"></script>
 </body>
 </html>

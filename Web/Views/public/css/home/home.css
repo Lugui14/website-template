@@ -492,8 +492,16 @@ html .testimonials .slider a i, body .testimonials .slider a i {
   font-size: 30px;
 }
 
-html .testimonials .slider .card, body .testimonials .slider .card {
+html .testimonials .slider .cards, body .testimonials .slider .cards {
+  width: 60%;
+  height: 300px;
   margin: 0 40px;
+  border-radius: 30px;
+  -webkit-filter: drop-shadow(-4px 8px 12px rgba(0, 0, 0, 0.35));
+          filter: drop-shadow(-4px 8px 12px rgba(0, 0, 0, 0.35));
+}
+
+html .testimonials .slider .cards .card, body .testimonials .slider .cards .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -506,47 +514,46 @@ html .testimonials .slider .card, body .testimonials .slider .card {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-filter: drop-shadow(-4px 8px 12px rgba(0, 0, 0, 0.35));
-          filter: drop-shadow(-4px 8px 12px rgba(0, 0, 0, 0.35));
-  width: 60%;
-  height: 280px;
+  width: 100%;
+  height: 90%;
   border-radius: 30px;
-  background: radial-gradient(100% 99.96% at 0% 0%, #EAEAEA 0%, rgba(234, 234, 234, 0.8) 100%);
+  background: radial-gradient(100% 99.96% at 0% 0%, #EAEAEA 0%, rgba(230, 230, 230, 0.8) 100%);
+  margin: 30px 30px;
 }
 
-html .testimonials .slider .card::-webkit-backdrop, body .testimonials .slider .card::-webkit-backdrop {
+html .testimonials .slider .cards .card::-webkit-backdrop, body .testimonials .slider .cards .card::-webkit-backdrop {
   -webkit-filter: blur(20px);
           filter: blur(20px);
 }
 
-html .testimonials .slider .card::backdrop, body .testimonials .slider .card::backdrop {
+html .testimonials .slider .cards .card::backdrop, body .testimonials .slider .cards .card::backdrop {
   -webkit-filter: blur(20px);
           filter: blur(20px);
 }
 
-html .testimonials .slider .card img, body .testimonials .slider .card img {
+html .testimonials .slider .cards .card img, body .testimonials .slider .cards .card img {
   width: 40%;
   border-radius: 100%;
   margin: 30px 0;
 }
 
-html .testimonials .slider .card p, body .testimonials .slider .card p {
+html .testimonials .slider .cards .card p, body .testimonials .slider .cards .card p {
   margin-bottom: 30px;
   max-width: 80%;
   color: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (min-width: 768px) {
-  html .testimonials .slider .card, body .testimonials .slider .card {
+  html .testimonials .slider .cards .card, body .testimonials .slider .cards .card {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  html .testimonials .slider .card img, body .testimonials .slider .card img {
+  html .testimonials .slider .cards .card img, body .testimonials .slider .cards .card img {
     width: 20%;
   }
-  html .testimonials .slider .card p, body .testimonials .slider .card p {
+  html .testimonials .slider .cards .card p, body .testimonials .slider .cards .card p {
     max-width: 60%;
     text-align: start;
   }

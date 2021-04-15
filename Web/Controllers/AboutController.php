@@ -2,7 +2,7 @@
 
   namespace Web\Controllers;
 
-  class HomeController {
+  class AboutController {
 
     public function index() {
       \Web\Views\MainView::render('about');
