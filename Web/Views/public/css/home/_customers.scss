@@ -1,0 +1,42 @@
+.costumers-section {
+  width: 100%;
+  margin: 50px 0;
+
+  .content {
+    width: 100%;
+    text-align: center;
+
+    span {
+      font-size: 24px;
+      background: linear-gradient(to bottom, $primary-orange, $primary-red);
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    b {
+      margin: 20px 0;
+      font-weight: bold;
+      font-size: 144px !important;
+      background: linear-gradient(to bottom, $primary-orange, $primary-red);
+      background-clip: inherit;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .costumers-section {
+    .content {
+      span {
+        font-size: 48px;
+      }
+
+      b {
+        font-size: 288px;
+      }
+    }
+  }
+}

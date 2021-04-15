@@ -11,6 +11,7 @@
   align-items: center;
 
   .custom-shape-divider-bottom-1618340795 {
+    display: none;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -83,6 +84,10 @@
 
 @media screen and (min-width: 768px) {
   .hero {
+    .custom-shape-divider-bottom-1618340795 {
+      display: block;
+    }
+
     .content {
       max-width: 50%;
 

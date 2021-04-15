@@ -51,13 +51,10 @@
 
         &:hover {
           transition: .8s;
-          transform: scale(1.1);
 
-          .button-el {
-            h2 {
+          .button-el {           
               transition: .8s;
-              transform: scale(1.2);
-            }
+              background: linear-gradient(90deg, #f5c557 0%, #f35b60 100%);           
           }
         }
 

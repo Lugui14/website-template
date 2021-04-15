@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ED6244), color-stop(63.54%, #E73D58));
+  background: linear-gradient(180deg, #ED6244 0%, #E73D58 63.54%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150%;
+}
+
+footer .dividertop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+footer .dividertop svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+footer .dividertop .shape-fill {
+  fill: #F4F4F4;
+}
+
+footer .content {
+  max-width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content .nav {
+  margin: 25px 0;
+}
+
+footer .content .nav ul {
+  text-align: center;
+}
+
+footer .content .nav ul li {
+  margin: 20px 0;
+  list-style: none;
+}
+
+footer .content .nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer .content .credits {
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .content .credits p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer .terms {
+  justify-self: flex-end;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 100%;
+  }
+  footer .content {
+    max-width: 90%;
+    margin: 50px 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .content .nav {
+    margin: 0 50px;
+  }
+  footer .content .credits {
+    margin: 0 50px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
