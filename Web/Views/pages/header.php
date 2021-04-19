@@ -10,7 +10,7 @@
         <ul>
           <li><a class='list-el' href="home">Home</a></li>
           <li><a class='list-el' href="about">About</a></li>
-          <li><a class='list-el' href="#">Services</a></li>
+          <li><a class='list-el' href="services">Services</a></li>
           <li><a class='list-el' href="#">Costumers</a></li>
           <li><a class='list-el' href="#">Contact</a></li>
         </ul>
@@ -22,7 +22,7 @@
         <ul>
           <li><a href="home">Home</a></li>
           <li><a href="about">About</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="services">Services</a></li>
           <li><a href="#">Costumers</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 html,body {
@@ -14,11 +15,6 @@ html,body {
 
   @import "../scroll";
   @import "hero";
-  @import "button-section";
-  @import "services";
-  @import "customers";
-  @import "phrase";
-  @import "testimonials";
-
+  @import "example";
+  
 }
- 
