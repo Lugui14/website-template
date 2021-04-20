@@ -10,6 +10,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  background-color: #f4f4f4;
 }
 
 html ::-webkit-scrollbar, body ::-webkit-scrollbar {
@@ -53,5 +54,241 @@ html ::-webkit-scrollbar-track:active, body ::-webkit-scrollbar-track:active {
 
 html ::-webkit-scrollbar-corner, body ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+html .hero, body .hero {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("../../images/services/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-position: center center;
+}
+
+html .hero .custom-shape-divider-bottom-1618340795, body .hero .custom-shape-divider-bottom-1618340795 {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+html .hero .custom-shape-divider-bottom-1618340795 svg, body .hero .custom-shape-divider-bottom-1618340795 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+html .hero .custom-shape-divider-bottom-1618340795 .shape-fill, body .hero .custom-shape-divider-bottom-1618340795 .shape-fill {
+  fill: #F4F4F4;
+}
+
+html .hero .content, body .hero .content {
+  position: relative;
+  max-width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .hero .content .text, body .hero .content .text {
+  text-align: center;
+  margin: 50px 0;
+}
+
+html .hero .content .text h1, body .hero .content .text h1 {
+  font-size: 36px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(102.46% 801.63% at -2.46% 0%, #11090A 0%, #E73959 100%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px;
+}
+
+html .hero .content a, body .hero .content a {
+  text-decoration: none;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+html .hero .content a:hover, body .hero .content a:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+html .hero .content a .button, body .hero .content a .button {
+  width: 98px;
+  height: 98px;
+  text-align: center;
+  background: radial-gradient(119.63% 119.63% at 0% 13.7%, #FFFFFF 0%, rgba(196, 196, 196, 0) 100%);
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .hero .content a .button::-webkit-backdrop, body .hero .content a .button::-webkit-backdrop {
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+}
+
+html .hero .content a .button::backdrop, body .hero .content a .button::backdrop {
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+}
+
+html .hero .content a .button i, body .hero .content a .button i {
+  font-size: 50px;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  html .hero .custom-shape-divider-bottom-1618340795, body .hero .custom-shape-divider-bottom-1618340795 {
+    display: block;
+  }
+  html .hero .content, body .hero .content {
+    max-width: 50%;
+  }
+  html .hero .content .text h1, body .hero .content .text h1 {
+    font-size: 72px;
+  }
+  html .hero .content a .button, body .hero .content a .button {
+    width: 135px;
+    height: 135px;
+  }
+  html .hero .content a .button i, body .hero .content a .button i {
+    font-size: 65px;
+  }
+}
+
+html .redirect, body .redirect {
+  text-align: center;
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .redirect .cards, body .redirect .cards {
+  max-width: 80%;
+}
+
+html .redirect .cards .card, body .redirect .cards .card {
+  padding: 40px 0;
+  margin: 40px 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d8d8d8;
+  -webkit-filter: drop-shadow(-2px 6px 12px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(-2px 6px 12px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+html .redirect .cards .card img, body .redirect .cards .card img {
+  width: 50%;
+  margin: 10px 0;
+}
+
+html .redirect .cards .card .text, body .redirect .cards .card .text {
+  margin: 10px 0;
+  max-width: 70%;
+}
+
+html .redirect .cards .card .text h2, body .redirect .cards .card .text h2 {
+  font-size: 36px;
+}
+
+html .redirect .cards .card .text p, body .redirect .cards .card .text p {
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  html .redirect .cards .card, body .redirect .cards .card {
+    padding: 40px 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html .redirect .cards .card img, body .redirect .cards .card img {
+    width: 20%;
+  }
+  html .redirect .cards .card .text, body .redirect .cards .card .text {
+    text-align: left;
+    max-width: 60%;
+  }
+  html .redirect .cards .card.two, body .redirect .cards .card.two {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  html .redirect .cards .card.two .text, body .redirect .cards .card.two .text {
+    text-align: right;
+  }
 }
 /*# sourceMappingURL=services.css.map */

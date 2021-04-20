@@ -24,7 +24,9 @@
     </div>
 
     <div class="content">
-      <h1>"The best services on the market"</h1>
+      <div class="text">
+        <h1>"The best services on the market"</h1>
+      </div>
 
       <a href="#">
         <div class="button">
@@ -38,40 +40,50 @@
     <div class="cards">
 
       <div class="card 1">
-        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder1" alt="placeholder">
+        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder1.svg" alt="placeholder">
 
-        <h2>Service</h2>
+        <div class="text">
+          <h2>Service</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+        </div>
       </div>
 
-      <div class="card 2">
-        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder2" alt="placeholder">
+      <div class="card two">
+        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder2.svg" alt="placeholder">
 
-        <h2>Service</h2>
+        <div class="text">
+          <h2>Service</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+        </div>
       </div>
 
       <div class="card 1">
-        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder3" alt="placeholder">
+        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder3.svg" alt="placeholder">
 
-        <h2>Service</h2>
+        <div class="text">
+          <h2>Service</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+        </div>
       </div>
 
-      <div class="card 2">
-        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder4" alt="placeholder">
+      <div class="card two">
+        <img src="<?php echo INCLUDE_PATH_STATIC ?>public/images/services/placeholder4.svg" alt="placeholder">
 
-        <h2>Service</h2>
+        <div class="text">
+          <h2>Service</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus tellus, ultricies in magna sit amet, vehicula condimentum libero. Maecenas tempor auctor magna. Etiam at semper leo. Suspendisse eget pellentesque mi, et aliquet sapien.</p>
+        </div>
       </div>
 
     </div>
   </section>
 
   <?php include("footer.php") ?>
+
+  <script src="https://kit.fontawesome.com/560a2dac7b.js" crossorigin="anonymous"></script>
 </body>
 </html>
