@@ -2,7 +2,7 @@
 
 <h1> PHP Website Template </h1> </br>
 
-<p> With this website template constructed with PHP, SCSS and JS, can you adapt all your website content to specific design </p>
+<p> With this website template constructed with PHP, SCSS and JS, can you adapt all your website content to this specific design </p>
 
 <h4> Possible Changes </h4>
 
